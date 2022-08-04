@@ -325,3 +325,127 @@ git config --list
 git push -u origin master
 git push -u origin main
 git push -u origin master
+ls
+cd DefaultWeb/
+git log
+ls
+nano about.html
+git status
+git add .
+git commit -m "creating another commit"
+git status
+git push origin master
+git status
+git log
+git log --oneline
+git diff ab5ddcb ce8bb50
+git diff ce8bb50 ab5ddcb
+git diff about.html
+git diff HEAD
+cd about.html/
+git diff HEAD[about.html]
+nano about.html
+git diff HEAD[about.html]
+git status
+git diff HEAD about.html
+git commit -am "testing how to use diff HEAD"
+gitbstatus
+git status
+git push origin master
+git status
+git status -s
+cd ..
+git add .
+git status -s
+git commit
+git status -s
+git status 
+git push
+git push origin master
+git status -s
+git status 
+clear
+git pull origin master
+git branch feature01
+git branch
+git checkout feature01
+git checkout master
+git branch feature02
+git branch
+git checkout -b feature03
+git branch
+ls
+cd DefaultWeb/
+lss
+ls
+git branch
+nano about.html
+git status
+git commit -am "new modification"
+git status
+nano contact.html
+ls
+git checkout master
+git status
+git add .
+git commit -m "creating new html file "
+git status
+git push origin master
+git status
+git branch
+git checkout feature01
+nano contact.html
+ls
+ls -al
+nano contact.html
+ls
+git status
+git checkout master
+rm contact.html
+ls
+git checkout master
+ls
+git checkout feature01
+ls
+git checkout master
+git checkout -b feature04
+ls
+nano contact.html
+git status
+git commit -am "modified on feature04"
+git status
+git checkout feature02
+nano about.html
+nano contact.html
+ls
+git checkout master
+git branch -d feature01
+git branch -a
+git checkout master
+git merge feature04
+ls
+nano contact.html
+git merge feature03
+nano about.html
+git checkout feature01
+git checkout feature04
+git merge master
+git checkout feature03
+git merge master
+git checkout master
+git log --oneline
+git push origin master
+git status
+git checkout push-to-remote-demo
+git checkout -b push-to-remote-demo
+ls
+nano about.html
+git commit -am "pushing change for remote demo"
+git status
+git push -u origin push-to-remote-demo
+git push origin push-to-remote-demo
+nano about.html
+git status
+git branch
+git checkout master
+git fetch origin
