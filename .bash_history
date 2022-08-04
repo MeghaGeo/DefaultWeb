@@ -449,3 +449,98 @@ git status
 git branch
 git checkout master
 git fetch origin
+ls
+cd DefaultWeb
+ls
+pwd
+cd..
+cd DefaultWeb/
+cd ..
+cd DefaultWeb/
+pwd
+git status
+git status -s
+git add .
+git commit -m "updating everything"
+cd ..
+git status
+git add .
+git commit -m "updating everything"
+git status
+git push origin master
+git branch
+cd DefaultWeb/
+git branch
+git fetch origin
+git checkout new-remote-branch-demo
+git branch
+git merge master
+git checkout master
+git checkout new-remote-branch-demo
+git push origin new-remote-branch-demo
+git checkout new-remote-branch-demo
+git push origin
+ls
+nano about.html
+git commit -am "random changes to about page"
+git push origin
+git branch
+git fetch origin
+git checkout master
+git pull origin master
+git checkout master
+git checkout new-remote-local-demo
+git checkout new-remote-branch-demo
+git merge master
+git status
+git push origin
+git checkout master
+git branch -d feature04
+git branch
+git checkout feature03
+git push -u origin feature03
+git checkout master
+git checkout feature03
+git checkout master
+git push -u origin feature03
+git push origin --delete feature03
+git branch
+git push -u origin feature03
+git push origin --delete feature03
+git branch -d feature03
+git status
+git push -u origin feature02
+git checkout feature02
+ls
+nano about.html
+git status
+git commit -am 'change on feature02' 
+nano about.html
+git commit -am "second change on feature02"
+git status
+nano about.html
+git commit -am "final change on feature02"
+git checkout master
+nano about.html
+git checkout feature02
+nano about.html
+git add .
+git checkout master
+git branch -d feature02
+git commit -m "Just making mess"
+git checkout master
+git branch -d feature02
+git branch -D feature02
+git branch
+git fetch
+git remote prune origin --dry-run
+git remote prune origin 
+git branch
+git branch -d new-remote-branch-demo
+ls
+cd defaultweb/
+cd DefaultWeb/
+git branch
+git checkout push-to-remote-demo 
+git merge master
+git mergetool
